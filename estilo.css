@@ -1,3 +1,115 @@
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #dcf8ff;
+}
+#base{
+    margin: auto;
+    width: 1000px;
+    height: 1400px;
+    background-color:plum;
+}
+#derecha{
+    margin-top: 80px;
+    float: right;
+    width: 620px;
+    height: 150px;
+}
+
+#derecha2{
+    margin: 20px;
+    float: right;
+    width: 600px;
+    height: 580px;
+    background-color:aliceblue;
+    
+}
+#derecha3{
+    margin: 20px;
+    float: right;
+    width: 600px;
+    height: 450px;
+    background-color: aliceblue;
+}
+
+#derechaint3izq{
+    margin: auto;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+#derechaint3der{
+    margin: auto;
+    float: left;
+    width: 330px;
+    height: 250px;
+
+}
+
+#derecha4{
+    margin: 20px;
+    margin-top: 0px;
+    float: right;
+    width: 600px;
+    height: 240px;
+    background-color: aliceblue;
+}
+
+
+#izquierda{
+    
+    width: 360px;
+    height: 1400px;
+    background-color:darkorchid;
+}
+
+.imagen{
+    
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.titulo1{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.5em;
+    color: #21201F;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p{
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.h1u{
+    padding: 20px;
+    text-align: left;
+    font-size: 3.3em;
+    color:whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hr{
+    height: 5px;
+    background-color: purple;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hr2{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 5px;
+    width: auto;
+    background-color:aliceblue;
+    border: 0px ;
+}
